@@ -5,7 +5,7 @@ const Navbar = () => {
     <>
         <nav style={{marginBottom:'3rem',marginTop:'1rem'}} className="navbar navbar-expand-lg navbar-light">
   <div className="container-fluid">
-    <a className="navbar-brand" style={{marginLeft:'7rem',color:'blueviolet'}} href="#">Jillion Technologies</a>
+    <a className="navbar-brand" style={{color:'blueviolet'}} href="#">Jillion Technologies</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>

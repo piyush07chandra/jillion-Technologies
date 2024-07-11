@@ -51,6 +51,9 @@
 .navbar-nav{
     margin-left: 24rem;
 }
+.navbar-brand{
+    margin-left: 7rem;
+}
 /* Products */
 
 .cards{
@@ -109,7 +112,7 @@
         display: block;
         align-items: center;
         margin-bottom: 1rem;
-        margin-left: 1rem;
+        margin-left: 0.4rem;
     }
     .contact-us{
         display: block;
@@ -150,7 +153,9 @@
     margin-right: auto;
     width: 300px;
     }
-  
+    .navbar-brand{
+        margin-left: 0rem;
+    }
         
 
 }
