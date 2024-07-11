@@ -1,0 +1,168 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: linear-gradient(to right, blue, red);
+    color: #fff;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 10px;
+    min-width: 200px;
+    text-align: center;
+}
+
+.footer-section h4 {
+    margin-bottom: 20px;
+    margin-top: 1rem;
+}
+
+.footer-section p {
+    margin: 1%;
+}
+
+/* home */
+.home{
+    display: flex;
+    width: 80%; /* or any width you need */
+    margin: 0 auto;
+}
+.first-image{
+    height: 400px;
+    width: 400px;
+}
+/* features */
+.first-feature{
+    display: flex;
+    width: 90%;
+    gap: 8rem;
+    margin-left: 5rem;
+}
+.feature-img{
+    height: 400px;
+}
+.feature-text{
+    margin-top: 8rem;
+}
+
+/* navbar */
+.navbar-nav{
+    margin-left: 24rem;
+}
+/* Products */
+
+.cards{
+    display: flex;
+    gap: 3rem;
+    margin-left: 5rem;
+    margin-bottom: 2rem;
+}
+.card{
+    margin-top: 2rem;
+}
+/* contact-us */
+
+.contact-us{
+    display: flex;
+    gap: 5rem;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+}
+.contact-us form{
+    width: 400px;
+}
+.contact-img{
+    align-items: center;
+}
+
+/* testimonial */
+.carousel-item{
+    text-align: center;
+} 
+.person-img{
+    height: 100px;
+    width: 100px;
+    margin: 1rem;
+}
+.carousel-control-prev-icon {
+    background-color: black; /* Change this to the color you want */
+}
+.carousel-control-next-icon {
+    background-color: black; /* Change this to the color you want */
+}
+.carousel {
+    margin-bottom: 2rem;
+}
+
+
+/* Responsive Design */
+
+/* for mobile */
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+    .cards{
+        display: block;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+    .contact-us{
+        display: block;
+    }
+    .navbar-nav{
+        margin-left: 1rem;
+    }
+    .first-image{
+    height: 150px;
+    width: 150px;
+    }
+    .home{
+        margin-left: 10px;
+        width: 98%; /* or any width you need */
+    }
+    .home section{
+        margin-left: 40%;
+    }
+    .feature-img{
+        height: 200px;
+    }
+    .first-feature{
+        display: flex;
+        gap: 0;
+        margin-left: 2rem;
+    }
+    .feature-text{
+        margin-top: 2rem;
+    }
+    .contact-img{
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    .formm{
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+  
+        
+
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+    .footer {
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 1025px) {
+    .footer {
+        flex-direction: row;
+    }
+    .contact-us{
+        margin-left: 10rem;
+    }
+}
