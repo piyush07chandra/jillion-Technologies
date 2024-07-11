@@ -9,8 +9,8 @@ const Home = () => {
             <p>Some quick example text to build on the card title and make up the bulk of the cards <br/>
             Content. Some quick example text to build on the card title and make up the bulk of <br/>
             the cards Content </p>
-            <section>
-                <button style={{backgroundColor:'blueviolet',color:'white',marginRight:'1rem',border:'1px solid blueviolet',padding:'4px'}}>Get Started</button>
+            <section style={{display:'flex'}}>
+                <button style={{backgroundColor:'blueviolet',color:'white',marginRight:'1rem',border:'1px solid blueviolet',padding:'4px',width:''}}>Get Started</button>
                 <button style={{border:'1px solid blueviolet',color:'blueviolet',padding:'4px'}}>Contact Us</button>
             </section>
             </div>
